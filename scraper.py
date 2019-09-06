@@ -59,7 +59,7 @@ while True:
             filename = info[4]
             foundOdd = printform(filename, count)
             if foundOdd:
-                print count
+                print(count)
                 count += 1
 
     if line[0:10] == "----------":
